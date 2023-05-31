@@ -390,6 +390,7 @@ body {
 }
 
 .name {
+   color:#ffffff;
    /* размер шрифта имени */
    font-size: 3.333vw;
    font-weight: 500;
