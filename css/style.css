@@ -312,7 +312,7 @@ body {
    }
 }
 
-/* общий блок, внутри которого находится блки с текстом */
+/* общий блок, внутри которого находится блоки с текстом */
 .data {
    position: relative;
    display: flex;
@@ -390,6 +390,7 @@ body {
 }
 
 .name {
+   color:#ffffff;
    /* размер шрифта имени */
    font-size: 3.333vw;
    font-weight: 500;
@@ -417,6 +418,7 @@ body {
 }
 
 .list {
+   color:#ffffff;
    /* текст выводится заглавными буквами */
    text-transform: uppercase;
    /* размер шрифта */
@@ -439,7 +441,7 @@ body {
 
 /* цвет наименований */
 .list span:first-child {
-   color: #666666;
+   color: #ffffff;
 }
 
 .list span:nth-child(2) {
@@ -462,7 +464,7 @@ a {
    padding: 2.08vw;
    font-size: 1.11vw;
    /* цвет шрифта */
-   color: #101010;
+   color: #000000;
    /* рамка ссылки: толщина линии, вид рамки, цвет */
    border: 0.28vw solid rgb(0, 0, 0);
    /* цвет фона */
